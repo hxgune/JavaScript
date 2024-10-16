@@ -2,8 +2,8 @@ function Foo() {
     let firstNumber = prompt("First number:");
     let secondNumber = prompt("Second number:");
 
-    firstNumber = parseInt(firstNumber);
-    secondNumber = parseInt(secondNumber);
+    firstNumber = parseFloat(firstNumber);
+    secondNumber = parseFloat(secondNumber);
 
     if (isNaN(firstNumber, secondNumber)) {
         alert("Error");
