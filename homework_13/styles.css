@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: "GothamRounded";
+    src: url("gothamrnd_bold.otf");
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.change-button {
+    position: fixed;
+    top: 100px;
+    left: 50px;
+}
+
+.links a {
+    max-width: 574px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 11px;
+    color: #16a085;
+    text-decoration: none;
+    margin: 0 30px;
+    font-weight: bold;
+}
+
+section {
+    background-color: #f5f6f7;
+    padding-bottom: 50px;
+}
+
+section .img {
+   text-align: center; 
+   margin-top: 16px;
+}
+
+section .title {
+    text-align: center;
+    font-size: 9px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #373737;
+}
+
+.paragraphs {
+    font-size: 11px;
+    text-align: center;
+    color: #373737;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    margin-top: 10px;
+    line-height: 8px;
+}
+
+.text {
+    margin-top: 21px;
+}
+
+.start button {
+    font-family: "GothamRounded";
+    width: 8%;
+    background-color: #16a085;
+    color: #ffffff;
+    font-size: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: hidden;
+    margin: auto;
+    display: block;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+footer {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 11px;
+    font-weight: bold;
+    color: #373737;
+    max-height: 100px;
+    height: 100%;
+    margin-left: 1035px;
+    margin-top: 20px;
+}
+
+body.dark section {
+    background-color: #000000;
+}
+
+body.dark header {
+    background-color: gray;
+}
+
+body.dark footer {
+    background-color: gray;
+    color: #ffffff;
+}
+
+body.dark {
+    background-color: gray;
+}
+
+body.dark .links a {
+    color: #f5f6f7;
+}
+
+body.dark .start button {
+    background-color: #f5f6f7;
+    color: #000000;
+}
+
+body.dark .paragraphs {
+    color: #ffffff;
+}
+
+body.dark .title {
+    color: #ffffff;
+}
