@@ -1,0 +1,50 @@
+.red-block {
+    margin-top: 100px;
+    margin-left: 100px;
+    background-color: rgb(134, 5, 5);
+    color: white;
+    display: block;
+    width: 120px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.red-block input[type = "text"] {
+    width: 50px;
+    height: 20px;
+    outline: none;
+    border-radius: 2px;
+    border: none;
+    margin-left: 5px;
+}
+
+.red-block input[type = "text"]:focus {
+    outline: 2px solid green;
+}
+
+.price {
+    margin-left: 100px;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.price button {
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.price button:hover {
+   cursor: pointer;
+   background-color: gray;
+}
+
+p {
+    margin-left: 100px;
+    color: red;
+}
+
+input[type = text].incorrect{
+    outline: 2px solid red;
+}
