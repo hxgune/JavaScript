@@ -1,0 +1,13 @@
+footer .text-logo {
+    background-color: #1d2124;
+    height: 72px;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+footer .text-logo .left-text p {
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 10px;
+}

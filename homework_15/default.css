@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.align-grid-item-left {
+    justify-self: start;
+}
+
+.align-grid-item-right {
+    justify-self: end;
+}
+
+a:hover {
+    cursor: pointer;
+}

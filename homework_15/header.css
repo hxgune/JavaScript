@@ -1,0 +1,79 @@
+header .panel-container {
+    background-color: #1d2124;
+    height: 72px;
+}
+
+header .logo {
+    margin-left: 20px;
+}
+
+header .logo a {
+    font-family: "Open Sans";
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+    font-size: 26px;
+    margin-left: 20px;
+}
+
+header .panel a {
+    font-family: "Open Sans";
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding-right: 37px;
+}
+
+header .search {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(228deg) brightness(102%) contrast(101%);
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+header .parallax-container {
+    background-image: url(img/header-bg.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 375px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header .parallax-container .news p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-size: 30px;
+    color: #fff;
+}
+
+header .parallax-container .buttons {
+    margin-top: 40px;
+}
+
+header .parallax-container .buttons button {
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    border-style: none;
+    border-radius: 5px;
+    height: 55px;
+    width: 150px;
+    cursor: pointer;
+}
+
+header .parallax-container .buttons .green button {
+    background-color: #89ca62;
+    margin-right: 20px;
+}
+
+
+header .parallax-container .buttons .blue button {
+    background-color: #14b9d5;
+}
